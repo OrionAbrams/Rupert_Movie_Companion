@@ -1,0 +1,24 @@
+{
+  "name": "rupert_movie_companion",
+  "version": "1.0.0",
+  "description": "A movie-searching app, mostly front-end with server side code to produce api token",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrionAbrams/Rupert_Movie_Companion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrionAbrams/Rupert_Movie_Companion/issues"
+  },
+  "homepage": "https://github.com/OrionAbrams/Rupert_Movie_Companion#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "google-oauth-jwt": "^0.2.0"
+  }
+}

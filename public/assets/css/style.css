@@ -1,0 +1,146 @@
+/* MAIN ELEMENTS */
+nav {  
+    background-size: 100%;
+    background-color: black;
+    block-size: 10%;
+}
+body {
+    background-size: 100%;
+    background-image: url("unnamed.jpg");
+}
+button {
+  margin: 5px;
+  color: cornsilk;
+  background-color:black;
+  border-radius: 6px;
+  font-family: fantasy;
+}
+input {
+  height: 100px;
+}
+img {
+  border-radius: 5px 5px 0 0;
+}
+h2 {
+  color: cornsilk;
+}
+
+/* CLASS */
+.container {
+  top: 0px;
+}
+.container a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar-brand {
+  color: cornsilk;
+  font-family: cursive;
+}
+
+.tmdb-attribution {
+  color: white;
+}
+
+#one {
+  min-height:100px;
+  color:black;
+}
+#two, #three {
+  display:inline-block;
+  min-height:100px;
+  color:black;
+  border-image-source: url("Frame_Border_Transparent_PNG_Clip_Art.png");
+}
+#ruTalk button:hover {
+    opacity: 0.7;
+    font-family: cursive;
+  }
+#ruTalk {
+  padding: 10px;
+}
+#ruAnswer {
+  height: 531px;
+  overflow: auto;
+  background-image: url("curtain.png");
+  border-radius: 5px;
+}
+#card3 {
+  height: 531px;
+  overflow: auto;
+  background-color: black;
+  border-radius: 5px;
+}
+#chatty {
+  height: 235px;
+  overflow: auto;
+}
+#footer {
+  position: relative;
+  height: 90px;
+  width: 100%;
+  
+  padding: 35px;
+  border-radius: 7px;
+  margin-top: 30px; 
+}
+#footer p {
+  color:cornsilk;
+  float: left;
+  position: relative;
+  top: 50%;
+  font-family: cursive;
+}
+#footer img {
+  float: right;
+  height: 70px;
+  width: 150px;
+  position: relative;
+  
+}
+#ruAnswer img {
+  max-height: 100%;
+  max-width: 100%;
+}
+#ruLogo {
+  margin-left: 35%;
+  margin-top: 2%;
+}
+#tmdb-logo{
+  zoom: 50%;
+  position: relative;
+
+}
+h1{
+  float: left;
+}
+h3 {
+    color: cornsilk;
+    font-family: cursive;
+}
+
+#card3 {
+    background-color: black;
+}
+
+.movie-title {
+    font-weight: bolder;
+    color: white;
+}
+
+.movie-plot {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+
+.fa-jenkins {
+  color: white;
+}
+
+#rupert-input {
+font-family: fantasy;
+}
